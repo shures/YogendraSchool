@@ -1,0 +1,114 @@
+#contact{
+    width: 100%;
+}
+#contact>#container{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#contact>#container>#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(50,139,245);
+    font-weight: bold;
+    width: 100%;
+}
+#contact>#container>#title>#line{
+    margin-top: 10px;
+    width: 80px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: rgb(50,139,245);
+}
+#contact>#container>#title>#schoolName{
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    margin-top: 12px;
+}
+#contact>#container>#detail{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#contact>#container>#detail>#left{
+    width: 45%;
+    padding : 0 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#contact>#container>#detail>#right{
+    width: 45%;
+    padding : 0 0 5% 5%;
+    display: flex;
+    flex-direction: row;
+}
+#contact>#container>#detail>#right>.item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: bold;
+}
+#contact>#container>#detail>#right>.item>#image{
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+#contact>#container>#detail>#right>.item>#image>img{
+    width: 150px;
+    border-radius: 3px;
+}
+#contact>#container>#detail>#right>.item>#title{
+    margin-top: 15px;
+    color:rgb(50,139,245) ;
+    font-weight: bold;
+    font-size: 16px;
+}
+#contact>#container>#detail>#right>.item>#name{
+    margin-top: 15px;
+}
+#contact>#container>#detail>#right>.item>#contact{
+   margin-top: 8px;
+}
+#contact>#container>#detail>#left>.item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    align-items: center;
+}
+#contact>#container>#detail>#right>.item>#title{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#contact>#container>#detail>#right>.item>#title>#line{
+    width: 20px;
+    height: 2px;
+    background-color: crimson;
+    margin-top: 8px;
+}
+#contact>#container>#detail>#left>.item>img{
+    width: 15px;
+    margin-right: 15px;
+}
+#contact>#container>#detail>#left>.item>span{
+    font-size: 14px;
+    color: rgb(50,139,245);
+    font-weight: bold;
+}
+#contact>#container>#map{
+    margin-top: 20px;
+}
