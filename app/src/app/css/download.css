@@ -1,0 +1,63 @@
+#download{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+#download>#title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(50,139,245);
+    font-weight: bold;
+}
+#download>#title>img{
+    width: 30px;
+    margin-bottom: 10px;
+
+}
+#download>#container{
+    width: 90%;
+    margin-left: 5%;
+}
+#download>#container>table{
+    border-collapse: collapse;
+    border: none;
+}
+#download>#container>table>tr{
+    cursor: pointer;
+}
+#download>#container>table>tr:hover{
+    color: crimson;
+}
+#download>#container>table>tr>td{
+    text-align: left;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-right: 40px;
+}
+#download>#container>table>tr>td>#title{
+    display: flex;
+    flex-direction: column;
+}
+#download>#container>table>tr>td>#title>#line{
+    width: 15px;
+    height: 2px;
+    background-color:rgb(50,139,245);
+    margin-top: 5px;
+}
+#download>#container>table>tr>th{
+    color: rgb(50,139,245);
+    text-align: left;
+    padding-right: 40px;
+    font-size: 16px;
+}
+#download>#container>table>tr>td>a{
+
+}
+#download>#container>table>tr>td>a>img{
+    width: 20px;
+    cursor: pointer;
+}

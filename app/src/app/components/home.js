@@ -1,7 +1,10 @@
 import '../css/home.css';
-import s1 from './../images/children-g7d03b677e_1280.jpg';
-import s2 from './../images/mountains-g714bf5ca1_1920.jpg';
-import s3 from './../images/kids-gb8fad821a_1920.jpg';
+import s1 from '../images/school/old_school.jpg';
+import s2 from '../images/school/new_school.jpg';
+import s3 from '../images/school/bal_class.JPG';
+import s4 from '../images/school/prayar_time.JPG';
+import s5 from '../images/school/IMG_0637.JPG';
+import s6 from '../images/school/Three.JPG';
 import {Fragment} from "react";
 import Header from './header'
 import Footer from './footer'
@@ -22,6 +25,21 @@ const slideImages = [
     },
     {
         url: s3,
+        caption: 'टुकुचे गाउँ',
+        about:'साँस्कृतिक कार्यक्रम २०७९ योगेन्द्र मा.वि.को कारण'
+    },
+    {
+        url: s4,
+        caption: 'साँस्कृतिक कार्यक्रम ',
+        about:'२०७९ योगेन्द्र मा.वि. २०७९ योगेन्द्र मा.वि.'
+    },
+    {
+        url: s5,
+        caption: 'निलगिरी हिमाल',
+        about:'साँस्कृतिक कार्यक्रम २०७९ योगेन्द्र मा.वि.को कारण'
+    },
+    {
+        url: s6,
         caption: 'टुकुचे गाउँ',
         about:'साँस्कृतिक कार्यक्रम २०७९ योगेन्द्र मा.वि.को कारण'
     },
@@ -50,29 +68,29 @@ function Home() {
                     <div id='article'>
                         <div id='vision'>
                             <div id="title">
-                                <span>OUR</span>
-                                <span>MISSION</span>
+                                <span>THE</span>
+                                <span>VISION OF SCHOOL</span>
                                 <span>Putting Your Child's Future in Great Motion</span>
                                 <span id='line'></span>
                             </div>
                             <div id='container'>
                                 <div id='about'>
-                                    लागि कर्म लाक्पा लामा ज्यूलाई यो अख्तियारानामा दिएको जानकारी गर्दछु । निजको हस्ताक्षर नमुना यस प्रकार छ ।  गरि पहिलो रनिङ विल भुक्तानी गरिदिनुहुन यो निवेदन पेश गरेको छु साथै मेरो कार्य व्यस्तताको कारण त्यस कार्यालयमा स्वयम आफै उपस्थित हुन नसकेकोले उक्त विलमा सहिछाप गरि चेक समेत बुझ्नको लागि कर्म लाक्पा लामा ज्यूलाई यो अख्तियारानामा दिएको जानकारी गर्दछु । निजको हस्ताक्षर नमुना यस प्रकार छ ।
+                                    To establish a model community school by providing quality and timely information technology education to the children of this area. Aim to provide technical education from upper 9 to class 12 in the coming days.
                                 </div>
                             </div>
                         </div>
-                        {/*<div id='message'>*/}
-                        {/*    <div id="title">*/}
-                        {/*        <span id='line'></span>*/}
-                        {/*          <span>Message From Principle</span>*/}
-                        {/*        <span id='line'></span>*/}
-                        {/*    </div>*/}
-                        {/*    <div id='container'>*/}
-                        {/*        <div id='about'>*/}
-                        {/*           गरिदिनुहुन यो निवेदन पेश गरेको छु साथै मेरो कार्य लाक्पा लामा ज्यूलाई यो अख्तियारानामा दिएको जानकारी गर्दछु । निजको हस्ताक्षर नमुना यस प्रकार छ ।  गरि पहिलो रनिङ विल भुक्तानी गरिदिनुहुन यो निवेदन पेश गरेको छु साथै मेरो कार्य व्यस्तताको कारण त्यस कार्यालयमा स्वयम आफै उपस्थित हुन नसकेकोले उक्त विलमा सहिछाप गरि चेक समेत बुझ्नको लागि कर्म लाक्पा लामा ज्यूलाई यो अख्तियारानामा दिएको जानकारी गर्दछु । निजको हस्ताक्षर नमुना यस प्रकार छ ।*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
+                        <div id='futureStrategy'>
+                            <div id="title">
+                                <span id='line'></span>
+                                  <span>Future Strategy</span>
+                                <span id='line'></span>
+                            </div>
+                            <div id='container'>
+                                <div id='about'>
+                                    In the school, well-equipped classrooms, libraries, science labs, computer labs, math labs, primary care, sports and music classes, skill training rooms, educational material rooms etc.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id='message'>

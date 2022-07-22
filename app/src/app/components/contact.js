@@ -45,24 +45,24 @@ function Contact() {
                         <div id='right'>
                             <div className='item'>
                                 <div id='image'>
-                                    <img src={require('./../images/kids-gb8fad821a_1920.jpg')}/>
+                                    <img src={require('./../images/teachers/गोविन्द श्रेष्ठ, प्रधानाध्यापक.jpg')}/>
                                 </div>
                                 <div id="title">
                                     <span>प्रधानाध्यापक</span>
                                     <span id='line'></span>
                                 </div>
-                                <span id='name'>गोबिन्द सर</span>
+                                <span id='name'>गोबिन्द श्रेष्ठ</span>
                                 <span id='contact'>मोबाईल नं. : ९८४७७४२६६५</span>
                             </div>
                             <div className='item'>
                                 <div id='image'>
-                                    <img src={require('./../images/kids-gb8fad821a_1920.jpg')}/>
+                                    <img src={require('./../images/teachers/तुलासिनाथ सुवेदी सहायक प्र.अ..jpg')}/>
                                 </div>
                                 <div id="title">
-                                    <span>प्रधानाध्यापक</span>
+                                    <span>सहायक प्रधानाध्यापक</span>
                                     <span id='line'></span>
                                 </div>
-                                <span id='name'>गोबिन्द सर</span>
+                                <span id='name'>तुलासिनाथ सुवेदी</span>
                                 <span id='contact'>मोबाईल नं. : ९८४७७४२६६५</span>
                             </div>
                         </div>

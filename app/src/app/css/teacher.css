@@ -1,0 +1,79 @@
+#teacher{
+    width: 90%;
+    margin-left: 5%;
+}
+#teacher>#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#teacher>#container>#left{
+    width: 30%;
+    line-height: 30px;
+}
+#teacher>#container>#left>#title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: rgb(50,139,245);
+    font-weight: bold;
+}
+#teacher>#container>#left>#container{
+
+}
+#teacher>#container>#left>#container>.item{
+
+}
+#teacher>#container>#left>#container>.item>span>:nth-child(1){
+
+}
+#teacher>#container>#left>#container>.item>span:nth-child(2){
+    font-weight: bold;
+    color: blue;
+    margin-left: 20px;
+}
+#teacher>#container>#right{
+    width: 70%;
+}
+#teacher>#container>#right>#container{
+    width: 100%;
+}
+#teacher>#container>#right>#container>.block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#teacher>#container>#right>#container>.block>#title{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(50,139,245);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#teacher>#container>#right>#container>.block>#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+#teacher>#container>#right>#container>.block>#container>.item{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+}
+#teacher>#container>#right>#container>.block>#container>.item>img{
+    width:100%;
+    border-radius:3px;
+    border: 2px solid rgb(50,139,245);
+    padding: 2px;
+}
+#teacher>#container>#right>#container>.block>#container>.item>span{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}

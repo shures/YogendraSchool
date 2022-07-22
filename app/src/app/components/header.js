@@ -28,9 +28,9 @@ function Header() {
                             एकेडेमिक
                             <span id='line'></span>
                         </div>
-                        <div className='item'>10th Class</div>
-                        <div className='item'>11th and 12th Classes</div>
-                        <div className='item'>Diploma Study</div>
+                        <div className='item'>Student Details</div>
+                        <div className='item'>Teacher Details</div>
+                        <div className='item'>Courses</div>
                         <div className='item'>Library</div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ function Header() {
                 </div>
                 <div className='item'>
                     <img src={require('./../images/cloud-file-download.svg').default}/>
-                    <span>स्रोतहरु</span>
+                    <Link to='/download'><span>डाउनलोड</span></Link>
                 </div>
                 <div className='item'>
                     <img src={require('./../images/tutor.svg').default}/>

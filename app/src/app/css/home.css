@@ -179,12 +179,12 @@
 #slide>#article>#vision>#container>#about{
     text-align: justify;
 }
-#slide>#article>#message{
+#slide>#article>#futureStrategy{
     width: 100%;
     color: black;
     margin-top: 20px;
 }
-#slide>#article>#message>#title{
+#slide>#article>#futureStrategy>#title{
     width: 100%;
     font-size: 20px;
     display: flex;
@@ -192,9 +192,10 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    color: indianred;
+    color:rgb(50,139,245) ;
+    font-weight: bold;
 }
-#slide>#article>#message>#title>#line{
+#slide>#article>#futureStrategy>#title>#line{
     width: 60px;
     height: 1px;
     background-color: rgba(0,0,0,0.5);
@@ -202,13 +203,14 @@
     margin-right: 15px;
     border-radius: 5px;
 }
-#slide>#article>#message>#container{
+#slide>#article>#futureStrategy>#container{
 
 }
-#slide>#article>#message>#container>#about{
+#slide>#article>#futureStrategy>#container>#about{
     text-align: justify;
     line-height: 27px;
     font-size: 14px;
+    color: black;
 }
 #message{
     width: 100%;
