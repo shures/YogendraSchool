@@ -3,3 +3,13 @@ body{
     padding: 0;
     font-family: Poppins, sans-serif;
 }
+button{
+    margin-top: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(50,139,245);
+    color: white;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+}

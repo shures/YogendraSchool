@@ -1,0 +1,59 @@
+#pathyakram{
+    width: 100%;
+}
+#pathyakram>#container{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+}
+#pathyakram>#container>.item{
+    width: 33.3%;
+    background: rgb(246,246,242);
+}
+#pathyakram>#container>.item>#image{
+    width: 100%;
+}
+#pathyakram>#container>.item>#image>img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    display: block;
+}
+#pathyakram>#container>.item>#image>#title{
+    width: 97.5%;
+    height: 40px;
+    background-color: rgb(50,139,245);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2.5%;
+    font-size: 14px;
+}
+#pathyakram>#container>.item>#title{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(50,139,245);
+    padding: 10px;
+    margin-top: 10px;
+}
+#pathyakram>#container>.item>#about{
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 27px;
+    color: rgba(0,0,0,0.8);
+}
+#pathyakram>#container>.item>#about>.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#pathyakram>#container>.item>#about>.item>img{
+    height: 13px;
+    margin-right: 10px;
+}

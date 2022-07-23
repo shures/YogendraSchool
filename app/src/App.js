@@ -4,6 +4,7 @@ import Contact from './app/components/contact'
 import Download from "./app/components/download";
 import Teacher from "./app/components/teacher";
 import Background from "./app/components/background";
+import Pathyakram from "./app/components/pathyakram";
 function App() {
   return (
       <BrowserRouter>
@@ -12,7 +13,8 @@ function App() {
               <Route path='/contact' element={<Contact/>}/>
               <Route path='/download' element={<Download/>}/>
               <Route path='/teacher' element={<Teacher/>}/>
-              <Route path='/background' element={<Background/>}/>
+              <Route path='/aboutUs' element={<Background/>}/>
+              <Route path='/pathyakram' element={<Pathyakram/>}/>
           </Routes>
       </BrowserRouter>
   );
